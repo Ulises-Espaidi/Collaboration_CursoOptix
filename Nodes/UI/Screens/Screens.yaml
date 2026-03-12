@@ -5,6 +5,23 @@ Children:
   Id: g=062b3694134cf7254ca153a334ecd188
   Supertype: Screen
   ReferenceType: HasComponent
+  Children:
+  - Name: LED1
+    Type: Led
+    Children:
+    - Name: Active
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
 - Name: M1
   Id: g=fd13b94b174ef092e3c11e66dcc4f9db
   Supertype: Screen
@@ -971,6 +988,22 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 218.0
+  - Name: LED1
+    Type: Led
+    Children:
+    - Name: Active
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
 - Name: M2
   Id: g=396e56eb11a66272fba180b4f134525a
   Supertype: Screen
