@@ -260,6 +260,7 @@ Children:
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
+          Value: "/Objects/Collaboration_CursoOptix/UI/Screens/Main"
           Children:
           - Name: Kind
             Type: PropertyType
